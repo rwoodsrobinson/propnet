@@ -45,9 +45,9 @@ class Material(object):
         return str(self.uuid)
 
     def __str__(self):
-        QUANTITY_LENGTH_CAP = 35
+        QUANTITY_LENGTH_CAP = 75
         building = []
-        building += ["Material: " + str(self.uuid), ""]
+        building += ["Material: " + str(self.uuid)]
         for symbol in self._symbol_to_quantity.keys():
             building += ["\t" + symbol.name]
             for quantity in self._symbol_to_quantity[symbol]:
