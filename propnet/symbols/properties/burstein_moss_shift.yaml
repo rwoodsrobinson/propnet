@@ -1,0 +1,7 @@
+name: burstein_moss
+units: eV
+display_names: ['Burstein-Moss shift']
+display_symbols: ['$\Delta$E_{g}^{BM}']
+shape: 1
+comment: 'The Burstein-Moss shift is ...'
+category: property
